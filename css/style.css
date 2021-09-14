@@ -27,33 +27,83 @@ body {
   height: 60px;
 }
 
+.debug .first {
+  width: 50%;
+  height: 60px;
+  float: left;
+  background-color: coral;
+}
+
+.debug .second {
+  width: 50%;
+  height: 60px;
+  float: left;
+  background-color: cadetblue;
+}
+
 /* ./header */
 
 /* main */
 
 .debug .content {
   width: 100%px;
-  height: 1500px;
+  height: 5000px;
   margin: auto;
   background-color: yellow;
 }
 
 .content {
   width: 100%;
-  height: 1500px;
+  height: 5000px;
+}
+
+.debug .hero_image {
+  width: 100%;
+  height: 600px;
+  background-color: cornflowerblue;
 }
 
 .debug .small {
   width: 1100px;
-  height: 600px;
+  height: 2000px;
   margin: auto;
   background-color: rgb(0, 255, 191);
 }
 
 .small {
   width: 1100px;
-  height: 600px;
+  height: 2000px;
   margin: auto;
+}
+
+.debug .one {
+  background-color: crimson;
+  height: 200px;
+}
+
+.debug .two {
+  background-color: rgb(220, 20, 177);
+  height: 200px;
+}
+
+.debug .three {
+  background-color: rgb(147, 20, 220);
+  height: 200px;
+}
+
+.debug .four {
+  background-color: rgb(33, 20, 220);
+  height: 200px;
+}
+
+.debug .five {
+  background-color: rgb(20, 220, 127);
+  height: 200px;
+}
+
+.debug .questions {
+  background-color: rgb(207, 220, 20);
+  height: 800px;
 }
 
 .debug .large {
@@ -80,12 +130,60 @@ body {
 
 .debug .copyright {
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: lightskyblue;
 }
 
 .copyright {
   width: 100%;
+  height: 600px;
+}
+
+.columns {
+  width: 1100px;
+  margin: auto;
+  height: 300px;
+  background-color: darkblue;
+}
+
+.debug .col {
+  float: left;
+  width: 100%;
+  height: 400px;
+}
+
+.debug .col_1 {
+  background-color: darkcyan;
+  float: left;
+  width: 20%;
+  height: 400px;
+}
+
+.debug .col_2 {
+  background-color: rgb(49, 0, 139);
+  float: left;
+  width: 20%;
+  height: 400px;
+}
+
+.debug .col_3 {
+  background-color: rgb(8, 143, 80);
+  float: left;
+  width: 20%;
+  height: 400px;
+}
+
+.debug .col_4 {
+  background-color: rgb(131, 197, 7);
+  float: left;
+  width: 20%;
+  height: 400px;
+}
+
+.debug .col_5 {
+  background-color: rgb(0, 83, 139);
+  float: left;
+  width: 20%;
   height: 400px;
 }
 
