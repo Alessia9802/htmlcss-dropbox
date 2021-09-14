@@ -34,11 +34,61 @@ body {
   background-color: coral;
 }
 
+.Discord {
+  padding: 1rem;
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 1rem;
+  float: left;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+
 .debug .second {
   width: 50%;
   height: 60px;
   float: left;
   background-color: cadetblue;
+}
+
+.menu1 li {
+  display: inline-block;
+  list-style: none;
+  padding: 1rem;
+  float: right;
+}
+
+.menu1 {
+  margin-right: 100px;
+}
+
+.menu1 li a {
+  text-decoration: none;
+  color: black;
+  float: right;
+}
+
+.but_start {
+  background-color: #0061ff;
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 /* ./header */
