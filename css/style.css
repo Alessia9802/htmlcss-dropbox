@@ -231,6 +231,7 @@ body {
   margin-top: 50px;
   border: 1px solid #d9d9dc;
   position: relative;
+  font-size: 13.5px;
 }
 
 .debug .uno {
@@ -238,10 +239,82 @@ body {
   margin-left: 100px;
 }
 
-.pro {
-  margin: 20px;
+.uno {
+  margin-left: 100px;
+}
+
+.contenitore {
+  padding: 1.5rem;
+}
+
+.Pro {
   text-align: center;
-  border-bottom: 1px solid rgb(128 128 128);
+  padding: 0.5rem;
+  border-bottom: 1px solid #d9d9dc;
+}
+
+.Pro_1 {
+  padding-bottom: 1rem;
+}
+
+.price {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.month {
+  color: #7e8b96;
+  font-size: 12px;
+}
+
+.elenco {
+  padding-top: 1.5rem;
+  line-height: 20px;
+}
+
+.user,
+.tb,
+.function {
+  padding-bottom: 1rem;
+}
+
+.function {
+  margin-bottom: 20px;
+}
+
+.but_prova {
+  background-color: #0061ff;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.buy {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.now {
+  color: #0061ff;
+}
+
+.linea {
+  width: 50px;
+  border-top: 1px solid #d9d9dc;
+  padding-bottom: 20px;
+}
+
+.title_card {
+  padding-bottom: 20px;
+}
+
+.list_plane {
+  list-style: none;
+  line-height: 30px;
+}
+
+.check {
+  color: #0061ff;
 }
 
 .debug .due {
