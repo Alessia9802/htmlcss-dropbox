@@ -388,7 +388,43 @@ body {
 
 .debug .three {
   background-color: rgb(147, 20, 220);
-  height: 200px;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.people {
+  width: 40%;
+  height: 400px;
+  background-color: chartreuse;
+  float: left;
+  margin-left: 10%;
+  background-image: url(../img/partner.png);
+  background-size: cover;
+}
+
+.partner {
+  width: 40%;
+  height: 400px;
+  background-color: rgb(0, 183, 255);
+  float: left;
+  margin-right: 10%;
+  padding: 2rem;
+}
+
+.but_partner {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text_part {
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .debug .four {
