@@ -172,14 +172,14 @@ body {
 
 .debug .small {
   width: 1100px;
-  height: 2300px;
+  height: 3500px;
   margin: auto;
   background-color: rgb(0, 255, 191);
 }
 
 .small {
   width: 1100px;
-  height: 2300px;
+  height: 3500px;
   margin: auto;
 }
 
@@ -348,6 +348,7 @@ body {
   height: 200px;
   border: 1px solid #dedee0;
   margin: auto;
+  margin-left: 100px;
 }
 
 .but_sales {
@@ -389,26 +390,49 @@ body {
 .debug .three {
   background-color: rgb(147, 20, 220);
   height: 400px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.people {
-  width: 40%;
+.three {
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.debug .people {
+  width: 50%;
   height: 400px;
   background-color: chartreuse;
   float: left;
-  margin-left: 10%;
   background-image: url(../img/partner.png);
   background-size: cover;
 }
 
-.partner {
-  width: 40%;
+.people {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background-image: url(../img/partner.png);
+  background-size: cover;
+}
+
+.debug .partner {
+  width: 50%;
   height: 400px;
   background-color: rgb(0, 183, 255);
   float: left;
-  margin-right: 10%;
+  padding: 2rem;
+}
+
+.partner {
+  width: 50%;
+  height: 400px;
+  float: left;
   padding: 2rem;
 }
 
@@ -429,17 +453,66 @@ body {
 
 .debug .four {
   background-color: rgb(33, 20, 220);
-  height: 200px;
+  height: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.four {
+  height: 1200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.debug .riquadri {
+  width: 33%;
+  height: 500px;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+  float: left;
+  margin-left: 2px;
+  padding: 20px;
+}
+
+.riquadri {
+  width: 33%;
+  height: 500px;
+  float: left;
+  margin-left: 2px;
+  padding: 18px;
+}
+
+.get_in {
+  padding-bottom: 20px;
+}
+
+.business_image {
+  width: 100%;
+}
+
+.Paper {
+  text-decoration: underline;
+}
+
+.strument {
+  padding-bottom: 10px;
+}
+
+.activities {
+  font-size: 14px;
 }
 
 .debug .five {
   background-color: rgb(20, 220, 127);
   height: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .debug .questions {
   background-color: rgb(207, 220, 20);
   height: 800px;
+  margin-left: 100px;
 }
 
 .debug .large {
