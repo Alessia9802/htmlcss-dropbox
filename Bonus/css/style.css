@@ -70,8 +70,21 @@ header {
   float: left;
 }
 
-.menu li a:hover {
-  background-color: #61082b;
+.menu a {
+  position: relative;
+  padding: 10px 10px;
+}
+.menu a::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 0;
+  background: black;
+}
+.menu a:hover::after {
+  height: 3px;
 }
 
 .debug .second {
@@ -239,6 +252,7 @@ header {
   border-radius: 50px;
   border: 1px solid gray;
   display: inline-block;
+  padding-left: 5px;
 }
 
 .uno,
@@ -771,6 +785,21 @@ img[class^="design"] {
 .footer_col li a {
   text-decoration: none;
   color: white;
+}
+
+.footer_col li a:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 50%;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 10px;
+}
+.footer_col li a:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .debug .columns {
