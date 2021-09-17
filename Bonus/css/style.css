@@ -103,12 +103,18 @@ header {
 
 .menu1 {
   margin-right: 100px;
+  position: relative;
 }
 
 .menu1 li a {
   text-decoration: none;
   color: black;
   float: right;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
 }
 
 .but_start {
@@ -692,6 +698,10 @@ img[class^="design"] {
   border-bottom: 1px solid #f4f4f4;
 }
 
+.nascosto {
+  width: 50px;
+}
+
 .angle_down {
   color: #000000;
   display: inline-block;
@@ -700,8 +710,8 @@ img[class^="design"] {
   font-size: 20px;
 }
 
-.row_quote .hidden {
-  display: none;
+.row_quote .nascosto {
+  visibility: hidden;
 }
 
 .row_quote:hover .bold {
@@ -709,7 +719,7 @@ img[class^="design"] {
 }
 
 .row_quote:hover .hidden {
-  display: inline-block;
+  visibility: inherit;
 }
 
 .debug .large1 {
@@ -799,7 +809,12 @@ img[class^="design"] {
   color: white;
 }
 
-.footer_col li a:after {
+.footer_col li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* .footer_col li a:after {
   bottom: 0;
   content: "";
   display: block;
@@ -813,7 +828,7 @@ img[class^="design"] {
   width: 100%;
   border: white;
   left: 0;
-}
+} */
 
 .debug .columns {
   width: 1100px;
