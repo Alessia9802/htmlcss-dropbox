@@ -700,6 +700,18 @@ img[class^="design"] {
   font-size: 20px;
 }
 
+.row_quote .hidden {
+  display: none;
+}
+
+.row_quote:hover .bold {
+  display: none;
+}
+
+.row_quote:hover .hidden {
+  display: inline-block;
+}
+
 .debug .large1 {
   width: 100%;
   height: 300px;
@@ -795,10 +807,11 @@ img[class^="design"] {
   left: 50%;
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 10px;
+  width: 0px;
 }
 .footer_col li a:hover::after {
   width: 100%;
+  border: white;
   left: 0;
 }
 
